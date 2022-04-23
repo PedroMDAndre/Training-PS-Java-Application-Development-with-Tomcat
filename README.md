@@ -28,6 +28,9 @@ Course author : Richard Monson-Haefel
 * http://localhost:8080/my_servlet/headers?name={name} Different response depending on browser preferred language
 * http://localhost:8080/my_servlet/context-count
 * http://localhost:8080/my_servlet/session-count
+
+JSP
+* http://localhost:8080/my_jsp/JspScriptlets.jsp?name={name}
 * http://localhost:8080/my_servlet/
 * http://localhost:8080/my_servlet/
 

@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Java Web apps" />
+        <module name="JspExamples" />
+        <module name="ServletExamples" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Java Web apps" target="17" />
+      <module name="JspExamples" target="17" />
+      <module name="ServletExamples" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java Web apps.iml" filepath="$PROJECT_DIR$/Java Web apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JspExample/JspExamples.iml" filepath="$PROJECT_DIR$/JspExample/JspExamples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServletExamples/ServletExamples.iml" filepath="$PROJECT_DIR$/ServletExamples/ServletExamples.iml" />
     </modules>
   </component>
 </project>

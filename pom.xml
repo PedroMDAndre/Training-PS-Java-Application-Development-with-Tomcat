@@ -6,10 +6,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pt.training</groupId>
-    <artifactId>servlets</artifactId>
+    <artifactId>main</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Servlet Examples</name>
-    <packaging>war</packaging>
+
+    <modules>
+        <module>JspExamples</module>
+        <module>ServletExamples</module>
+    </modules>
+
+    <name>Java Development with Tomcat</name>
+    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -32,13 +38,15 @@
     </dependencies>
 
     <build>
-        <finalName>my_servlet</finalName>
-
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.3.2</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                    <outputDirectory>target</outputDirectory>
+                </configuration>
             </plugin>
         </plugins>
     </build>
