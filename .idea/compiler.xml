@@ -7,13 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JspExamples" />
+        <module name="JstlExamples" />
+        <module name="ServletFilterExample" />
         <module name="ServletExamples" />
+        <module name="ServletListenerExample" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Java Web apps" target="17" />
       <module name="JspExamples" target="17" />
+      <module name="JstlExamples" target="17" />
       <module name="ServletExamples" target="17" />
+      <module name="ServletFilterExample" target="17" />
+      <module name="ServletListenerExample" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

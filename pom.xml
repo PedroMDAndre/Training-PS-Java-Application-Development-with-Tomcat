@@ -12,6 +12,9 @@
     <modules>
         <module>JspExamples</module>
         <module>ServletExamples</module>
+        <module>JstlExamples</module>
+        <module>ServletFilterExample</module>
+        <module>ServletListenerExample</module>
     </modules>
 
     <name>Java Development with Tomcat</name>

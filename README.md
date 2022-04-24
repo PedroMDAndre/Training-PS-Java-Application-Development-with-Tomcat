@@ -31,8 +31,18 @@ Course author : Richard Monson-Haefel
 
 JSP
 * http://localhost:8080/my_jsp/JspScriptlets.jsp?name={name}
-* http://localhost:8080/my_servlet/
-* http://localhost:8080/my_servlet/
+* http://localhost:8080/my_jsp/JspBean.jsp?name={name}
+
+JSTL
+* http://localhost:8080/my_jstl/JstlCore.jsp?name={name}
+* http://localhost:8080/my_jstl/JstlFunctions.jsp?name={name}
+* http://localhost:8080/my_jstl/JstlFormatting.jsp?name={name}
+
+Filters
+* http://localhost:8080/my_filters/
+
+Listeners
+*
 
 {name} : to be changed with a name
 
